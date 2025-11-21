@@ -8,6 +8,13 @@ composer create-project laravel/laravel crud-app
 cd crud-app
 ```
 
+
+```bash
+cd example-app
+npm install && npm run build
+composer run dev
+```
+
 ## Step 2: Configure Database
 Edit `.env` file:
 ```
